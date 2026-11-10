@@ -1,0 +1,17 @@
+{
+  "name": "tasks-api",
+  "version": "1.0.0",
+  "description": "API REST simples de tarefas em Node.js, sem dependências externas.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": ["api", "rest", "nodejs", "crud"],
+  "license": "MIT"
+}
